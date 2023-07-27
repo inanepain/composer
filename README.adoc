@@ -1,1 +1,24 @@
-= README: Inane - Composer
+= Composer
+:author: Philip Michael Raab
+:email: <peep@inane.co.za>
+:revnumber: 0.1.0
+:revdate: 2023-05-29
+:revremark: initial
+:experimental:
+:hide-uri-scheme:
+:table-stripes: even
+:icons: font
+:source-highlighter: highlight.js
+:sectnums: |,all|
+:toc: auto
+
+== Overview
+
+Class for making changes to composer.json files.
+
+== Install
+
+[source,shell]
+----
+$ composer require inanepain/composer
+----
