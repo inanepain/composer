@@ -1,0 +1,42 @@
+{
+    "name": "inanepain/composer",
+    "description": "Class for making changes to composer.json files..",
+    "type": "library",
+    "license": "UNLICENSE",
+    "homepage": "https://vaieen.local:3000/inane/composer",
+    "readme": "README.adoc",
+    "authors": [
+        {
+            "name": "Philip Michael Raab",
+            "email": "peep@inane.co.za",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "peep@inane.co.za",
+        "issues": "https://vaieen.local:3000/inane/composer/issues"
+    },
+    "keywords": [
+        "inane",
+        "composer",
+        "edit",
+        "utility"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Inane\\Composer\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "discard-changes": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1",
+        "inanepain/stdlib": ">=0.4.4 || dev-master || dev-develop"
+    },
+    "require-dev": {}
+}

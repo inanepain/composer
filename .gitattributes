@@ -1,0 +1,3 @@
+src/**/*.php filter=tagger
+*.md filter=tagger
+*.adoc filter=tagger
